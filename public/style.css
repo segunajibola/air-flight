@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -26,6 +28,10 @@ nav {
     max-width: 100px;
 }
 
+.nav--text {
+    padding-left: 10px;
+}
+
 section {
     padding: 20px;
 }
@@ -36,7 +42,7 @@ section {
 }
 
 .hero--photo {
-    max-width: 400px;
+    max-width: 600px;
     align-self: center;
 }
 
